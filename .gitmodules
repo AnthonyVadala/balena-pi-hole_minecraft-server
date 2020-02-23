@@ -1,0 +1,6 @@
+[submodule "balena-pihole"]
+	path = balena-pihole
+	url = git@github.com:klutchell/balena-pihole.git
+[submodule "balena-minecraft-server"]
+	path = balena-minecraft-server
+	url = git@github.com:AlexProgrammerDE/balena-minecraft-server.git
