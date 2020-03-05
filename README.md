@@ -10,6 +10,7 @@ This project is a [balenaCloud stack](https://www.balena.io/cloud/)
 
 - A free balenaCloud account
 - Raspberry Pi 4B (4GB Model **HIGHLY** recommended)
+- A fan to cool the CPU on the Raspberry Pi
 - 16GB or greater micro SD Card (SanDisk Extreme Pro SD cards recommended)
 
 ## Setting Up
@@ -62,9 +63,9 @@ For more information on post install setup, check the offical Pi-hole documentat
 Open the Minecraft and enter your `DEVICE_HOSTNAME`, by default this will be `balenaminecraftserver`. You can also connect using the device IP address.
 
 ### Updating
-- From the project direction run `git submodule foreach git pull origin master`
+- From the project directory run `git submodule foreach git pull origin master`
 - Wait for project changes to be pulled
-- Run `balena push <appName>` to push the changes
+- Run `balena push <appName>` to push the changes to the Pi
 
 # Credit
 All credit goes to:
